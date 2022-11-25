@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
+  crossorigin="anonymous">
+  <!-- Titulo -->
+  <title>La casa del sabor - Restaurante</title>
+
+  <link href="assets/img/logos/logo2.png" rel="icon">
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+  <!-- Template de CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body bg-dark text-white" style="list-style: none;">
+          <button type="button" class="btn-close" style="position: absolute; left: 90%; background-color: white; border-radius: 100%;" data-bs-dismiss="modal" aria-label="Close"></button>
+          <a class="nav-link scrollto m-2 mb-3 active" href="/index.html">Inicio</a>
+          <a class="nav-link scrollto m-2 mb-3" href="/info.html">Información</a>
+          <li><a class="nav-link scrollto m-2 mb-3" href="/menu.html">Menu</a></li>
+          <li><a class="nav-link scrollto m-2 mb-3" href="/eventos.html">Eventos</a></li>
+          <li><a class="nav-link scrollto m-2 mb-3" href="/contactos.html" >Contactos</a></li>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <!-- Logo -->
+      <div class="logo me-auto m-2">
+        <h1><a href="index.html">La casa del sabor</a></h1>
+      </div>
+      <button type="button" class="btn navbarBurger navbar-toggler" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="assets/img/iconos/burger_menu.png" height="50" width="50">
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">            
+            <div class="modal-body bg-dark" style="list-style: none;">
+              <button type="button" class="btn-close" style="position: absolute; left: 90%; background-color: white; border-radius: 100%;" data-bs-dismiss="modal" aria-label="Close"></button>
+              <li><a class="nav-link scrollto" href="/index.html">Inicio</a></li>
+              <li><a class="nav-link scrollto" href="/info.html">Información</a></li>
+              <li><a class="nav-link scrollto" href="/menu.html">Menu</a></li>
+              <li><a class="nav-link scrollto" href="/eventos.html">Eventos</a></li>
+              <li><a href="/contactos.html" class="nav-link scrollto">Contactos</a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar -->
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="/index.html">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="/info.html">Información</a></li>
+          <li><a class="nav-link scrollto" href="/menu.html">Menu</a></li>
+          <li><a class="nav-link scrollto" href="/eventos.html">Eventos</a></li>
+          <li><a href="/contactos.html" class="nav-link scrollto">Contactos</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- Fin del navbar -->
+    </div>
+  </header>
+  <!-- Fin del Header -->
+
+  <!-- ======= Hero y carousel ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(assets/img/galeria/mesa-fondo_1404-8.jpg); background-size: cover;">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown"><span>Disfrutá nuestro exquisito</span> Menú</h2>
+                <p class="animate__animated animate__fadeInUp">Disfrutá los mejores platos de la región que te esperarán en nuestro local. Un lugar en donde todos tus sentidos se abren y darán paso a las mejores experiencias que hayas tenido.</p>
+              </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- Fin de Hero -->
+
+  <!-- ======= Seccion Menú ======= -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <div class="section-title">
+        <h2>Descubre un mundo de <span>Sabores</span></h2>
+      </div>
+      <div class="img-menu-ancho mb-5">
+        <img src="assets/img/platos/festival-gastronomico-diferentes-quesos-vino-blanco-restaurante-vintage-botella-vino-blanco-uvas-frescas_482257-19777.webp" height="400" width="900" class="mx-auto d-block" alt="rico plato del resutaurante">
+      </div>
+
+      <div class="row menu-container">
+        <div class="col-sm-12 col-lg-6 menu-item">
+            <div class="h3-division-menu">
+                <h2>Entradas</h2>
+            </div>
+            <!-- item 1 -->
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Arcos de pasta farfalle</h3><span>$85.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Trigo, manteca, orégano, comino
+              </div>
+            </div>
+            <!-- item 1 -->
+            <!-- item 2 -->
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Ceviche cremoso</h3><span>$107.50</span>
+              </div>
+              <div class="menu-ingredients">
+                Salmón marinados en jugo de lima, crema de ají, y maiz frito
+              </div>
+            </div>
+            <!-- item 2 -->
+            <!-- item 3 -->
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Gramajo</h3><span>$79.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Jamón marinado y glaseado, huevo, aceitunas negras, cebolla encurtida, papas a la provenzal
+              </div>
+            </div>
+            <!-- item 3 -->
+            <!-- item 4 -->
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Caracú y apio</h3><span>$59.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Tuétano, mandioca, perejil, apio, pimienta, tokarashi
+              </div>
+            </div>
+            <!-- item 4 -->
+            <!-- item 5 -->
+            <div class="col-sm-12 menu-item mb-5">
+              <div class="menu-content">
+                <h3>Tortilla de papa</h3><span>$102.90</span>
+              </div>
+              <div class="menu-ingredients">
+                Papa, cebolla, huevo, chorizo colorado
+              </div>
+            </div>
+            <!-- item 5 -->
+          </div>
+          
+          <div class="col-sm-12 col-lg-6 menu-item">
+            <div class="h3-division-menu">
+                <h2>Pizzas</h2>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Tradicional</h3><span>$76.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Mozarrella, jamón, tomate, orénano
+              </div>
+            </div>        
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Vegetariana</h3><span>$98.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Salsa de tomate, queso cremoso, orégano, perejil
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Pizza Mozzarella</h3><span>$64.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Tomate, muzzarella, oregano
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Cuatro quesos</h3><span>$59.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Tomate, muzzarella, gorgonzola, fontina, parmesano
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item mb-5">
+              <div class="menu-content">
+                <h3>Mexicana</h3><span>$52.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Tomate, chorizo, cebolla, japapeño, queso
+              </div>
+            </div>
+          </div>
+</div>
+
+<div class="row menu-container">
+        <div class="col-sm-12 col-lg-6 menu-item">
+            <div class="h3-division-menu">
+                <h2>Pastas</h2>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Espaguetis a la boloñesa</h3><span>$65.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Salsa de tomate, carne, espaguetis, queso rallado
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Pasta penne</h3><span>$107.50</span>
+              </div>
+              <div class="menu-ingredients">
+                Chapiñones, pollo, salsa de crema, pasta a elección
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Pasta algio e olio</h3><span>$79.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Pasta, ajo, aceite de oliva, guindilla
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Pasta con salchichas ahumadas</h3><span>$59.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Pasta, salchichas, huevo duro, perejil
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item mb-5">
+              <div class="menu-content">
+                <h3>Ravioles a la italiana</h3><span>$102.90</span>
+              </div>
+              <div class="menu-ingredients">
+                Ravioles, salsa de tomate, perejil
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-lg-6 menu-item">
+            <div class="h3-division-menu">
+                <h2>Ensaladas</h2>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Ensalada de arroz</h3><span>$76.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Arroz, atún, aceituna verde, maíz, mayonesa
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Ensalada mixta</h3><span>$48.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Lechuga, tomate, cebolla, huevo, sal, aceite de oliva
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Ensalada waldorf</h3><span>$64.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Manzana, nueces, apio, lechuga, pasas, mayonesa
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Ensalada olivier</h3><span>$59.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Papas, zanahoria, atún, aceitunas, mayonesa, pollo cocido
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item mb-5">
+              <div class="menu-content">
+                <h3>Ensalada griega</h3><span>$52.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Tomate, cebolla, pimiento, queso feta, aceitunas negras
+              </div>
+            </div>
+        </div>
+</div>
+          
+<div class="row menu-container">
+          <div class="col-sm-12 col-lg-6 menu-item">
+            <div class="h3-division-menu">
+                <h2>Postres</h2>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Flan</h3><span>$85.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Huevo, caramelo, merengue, relladura de lima (a elección) 
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Torta chocolate</h3><span>$107.50</span>
+              </div>
+              <div class="menu-ingredients">
+                Delicada torta de chocolate recubierta de mouse y trozos de chocolate blanco
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Helado</h3><span>$79.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Dos bochas, sabores a elección, salsa de chocolate o frutilla
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Ensalada de frutas</h3><span>$59.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Manzana, banana, naranja, durazno, kiwi, frutilla
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item mb-5">
+              <div class="menu-content">
+                <h3>Budín de pan</h3><span>$92.90</span>
+              </div>
+              <div class="menu-ingredients">
+                Pan, caramelo, dulce de leche a elección
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6 menu-item">
+            <div class="h3-division-menu">
+                <h2>Bebidas</h2>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Agua mineral</h3><span>$70.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Diferentes marcas, 500 ml
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Gaseosa</h3><span>$98.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Sabores: cola, naranja, pomelo, lima-limón
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Cerveza artesanal</h3><span>$74.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Sabores: rubia, negra, roja, a 450 ml
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Vino</h3><span>$89.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Tinto, blanco, de distintas posadas
+              </div>
+            </div>
+            <div class="col-sm-12 menu-item">
+              <div class="menu-content">
+                <h3>Agua tónica</h3><span>$52.99</span>
+              </div>
+              <div class="menu-ingredients">
+                Diferentes marcas, 500 ml
+              </div>
+          </div>
+</div>
+  </section>
+  <!-- Fin de seccion menú -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+    <div class="container">
+      <img src="assets/img/logos/logo2.png" alt="logo" height="50px" class="mb-3"/>
+      <h3>La casa del sabor</h3>
+      <p>Un lugar donde vas a encontrarte con los mejores sabores de la región y los eventos más fabulosos del país.</p>
+      <div class="social-links">
+        <a href="https://twitter.com/?lang=es" class="twitter"><img src="assets/img/iconos/twitter.png" style="height: 20px;"></a>
+        <a href="https://www.facebook.com" class="facebook"><img src="assets/img/iconos/facebook-logo.png" style="height: 20px;"></a>
+        <a href="https://www.instagram.com" class="instagram"><img src="assets/img/iconos/Insta-Logo.png" style="height: 20px;"></a>
+        <a href="https://www.google.com.ar/?hl=es" class="gmail"><img src="assets/img/iconos/Gmail.webp" style="height: 20px;"></a>
+        <a href="https://www.tiktok.com/es/" class="tik-tok"><img src="assets/img/iconos/TikTok-Logo.png" style="height: 20px;"></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>La casa del sabor</span></strong>. Todos los derechos reservados
+      </div>
+      <div class="credits">
+        Diseñado por <a href="https://bootstrapmade.com/">Lamberti Emanuel Adrian - 2022</a>
+      </div>
+    </div>
+  </footer>
+  <!-- Fin de footer -->
+
+  <!-- Boton desliza hacia arriba -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><img src="assets/img/iconos/flecha.png" style="height: 20px;"/></a>
+
+  <!-- Bootstrap archivos JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  
+  <!-- Template de archivos de JS -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
